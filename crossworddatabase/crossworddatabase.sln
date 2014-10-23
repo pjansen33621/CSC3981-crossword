@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "crossworddatabase", "crossworddatabase\crossworddatabase.csproj", "{B62DBF70-A04F-45DE-A73E-B00F5E498029}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "crossworddatabase.Tests", "crossworddatabase.Tests\crossworddatabase.Tests.csproj", "{D8E7D3C6-4ECA-4CA4-A524-26F321B42D10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B62DBF70-A04F-45DE-A73E-B00F5E498029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B62DBF70-A04F-45DE-A73E-B00F5E498029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B62DBF70-A04F-45DE-A73E-B00F5E498029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B62DBF70-A04F-45DE-A73E-B00F5E498029}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8E7D3C6-4ECA-4CA4-A524-26F321B42D10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8E7D3C6-4ECA-4CA4-A524-26F321B42D10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8E7D3C6-4ECA-4CA4-A524-26F321B42D10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8E7D3C6-4ECA-4CA4-A524-26F321B42D10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = crossworddatabase\crossworddatabase.csproj
+	EndGlobalSection
+EndGlobal
