@@ -1,0 +1,6 @@
+/home/pjansen/anothertest/anothertest/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/home/pjansen/anothertest/anothertest/bin/Debug/anothertest.exe.mdb
+/home/pjansen/anothertest/anothertest/bin/Debug/anothertest.exe
+/home/pjansen/anothertest/anothertest/obj/x86/Debug/anothertest.exe
+/home/pjansen/anothertest/anothertest/obj/x86/Debug/anothertest.exe.mdb
+/home/pjansen/anothertest/anothertest/bin/Debug/MySql.Data.dll
