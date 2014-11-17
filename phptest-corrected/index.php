@@ -77,7 +77,7 @@
           <li class="dropdown">
             <a class="dropdown-toggle" href="#" data-toggle="dropdown">Log In <strong class="caret"></strong></a>
             <div class="dropdown-menu" style="padding: 15px; padding-bottom: 0px;">
-                <form action="login.php" method="post"> 
+                <form action="secret.php" method="post"> 
                     Username:<br /> 
                     <input type="text" name="username" value="<?php echo $submitted_username; ?>" /> 
                     <br /><br /> 
