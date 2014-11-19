@@ -4,6 +4,7 @@ CREATE TABLE `users` (
   `lastname` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `username` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `password` char(64) COLLATE utf8_unicode_ci NOT NULL,
+  `salt` char(16) COLLATE utf8_unicode_ci NOT NULL,
   `email` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `username` (`username`),

@@ -47,9 +47,6 @@ email = :email
   catch(PDOException $ex){ die("Failed to run query: " . $ex->getMessage());}
   $row = $stmt->fetch();
   if($row){ die("This email address is already registered"); }
-  
-  if ($_POST['password'] != $_POST['password_confirm']) { die ("The passwords do not match"); }
-  
 
   // Add row to database
   $query = "
@@ -58,22 +55,28 @@ email = :email
       lastname,
       username,
       password,
+      salt,
       email
     ) VALUES (
       :firstname,
       :lastname,
       :username,
       :password,
+      :salt,
       :email
     )
     ";
 
 // Security measures
+  $salt = dechex(mt_rand(0, 2147843647)) . dechex(mt_rand(0, 2147483647));
+  $password = hash('sha256', $_POST['password'] . $salt);
+  for($round = 0; $round < 65536; $round++){ $password = hash('sha256', $password. $salt); }
   $query_params = array(
     ':firstname' => $_POST['firstname'],
     ':lastname' => $_POST['lastname'],
     ':username' => $_POST['username'],
-    ':password' => $_POST['password'],
+    ':password' => $password,
+    ':salt' => $salt,
     ':email' => $_POST['email']
   );
   try {
@@ -89,7 +92,6 @@ email = :email
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>MPT Games: Crossword Construction Set - Registration</title>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
     <script src="assets/bootstrap.min.js"></script>
     <link href="assets/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -108,7 +110,7 @@ email = :email
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </a>
-      <a class="brand">MPT Games</a>
+      <a class="brand">PHP Signup + Bootstrap Example</a>
       <div class="nav-collapse collapse">
         <ul class="nav pull-right">
           <li><a href="index.php">Return Home</a></li>
@@ -129,9 +131,7 @@ email = :email
     <label>Email:</label> 
     <input type="text" name="email" value="" /> 
     <label>Password:</label> 
-    <input type="password" name="password" value="" />
-    <label>Confirm Password:</label>
-    <input type="password" name="password_confirm" value="" /> <br /><br />
+    <input type="password" name="password" value="" /> <br /><br />
     <input type="submit" class="btn btn-info" value="Register" /> 
 </form>
 </div>

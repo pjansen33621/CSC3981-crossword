@@ -9,6 +9,7 @@
                 lastname, 
                 username, 
                 password, 
+                salt, 
                 email 
             FROM users 
             WHERE 
@@ -26,13 +27,17 @@
         $login_ok = false; 
         $row = $stmt->fetch(); 
         if($row){ 
-            $check_password = $_POST['password']; 
+            $check_password = hash('sha256', $_POST['password'] . $row['salt']); 
+            for($round = 0; $round < 65536; $round++){
+                $check_password = hash('sha256', $check_password . $row['salt']);
+            } 
             if($check_password === $row['password']){
                 $login_ok = true;
             } 
         } 
  
         if($login_ok){ 
+            unset($row['salt']); 
             unset($row['password']); 
             session_start();
             $_SESSION['user'] = $row;  
@@ -52,7 +57,6 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
     <script src="assets/bootstrap.min.js"></script>
     <link href="assets/bootstrap.min.css" rel="stylesheet" media="screen">
-    <title>MPT Games: Crossword Construction Set</title>
     <style type="text/css">
         body { background: url(assets/bglight.png); }
         .hero-unit { background-color: #fff; }
@@ -68,7 +72,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </a>
-      <a class="brand">MPT Games</a>
+      <a class="brand">PHP Signup + Bootstrap Example</a>
       <div class="nav-collapse collapse">
         <ul class="nav pull-right">
           <li><a href="register.php">Register</a></li>
