@@ -4,7 +4,9 @@
     if(!empty($_POST)){ 
         $query = " 
             SELECT 
-                id, 
+                id,
+                firstname,
+                lastname, 
                 username, 
                 password, 
                 salt, 
@@ -37,6 +39,7 @@
         if($login_ok){ 
             unset($row['salt']); 
             unset($row['password']); 
+            session_start();
             $_SESSION['user'] = $row;  
             header("Location: secret.php"); 
             die("Redirecting to: secret.php"); 

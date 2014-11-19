@@ -3,6 +3,10 @@ require("config.php");
 if(!empty($_POST))
 {
   // Ensure that the user fills out fields
+  if(empty($_POST['firstname']))
+  { die("Please enter your first name."); }
+  if(empty($_POST['lastname']))
+  { die("Please enter your last name."); }
   if(empty($_POST['username']))
   { die("Please enter a username."); }
   if(empty($_POST['password']))
@@ -46,24 +50,30 @@ email = :email
 
   // Add row to database
   $query = "
-INSERT INTO users (
-username,
-password,
-salt,
-email
-) VALUES (
-:username,
-:password,
-:salt,
-:email
-)
-";
+    INSERT INTO users (
+      firstname,
+      lastname,
+      username,
+      password,
+      salt,
+      email
+    ) VALUES (
+      :firstname,
+      :lastname,
+      :username,
+      :password,
+      :salt,
+      :email
+    )
+    ";
 
 // Security measures
   $salt = dechex(mt_rand(0, 2147843647)) . dechex(mt_rand(0, 2147483647));
   $password = hash('sha256', $_POST['password'] . $salt);
-  for($round = 0; $round < 65536; $round++){ $passowrd = hash('sha256', $passowrd. $salt); }
+  for($round = 0; $round < 65536; $round++){ $password = hash('sha256', $password. $salt); }
   $query_params = array(
+    ':firstname' => $_POST['firstname'],
+    ':lastname' => $_POST['lastname'],
     ':username' => $_POST['username'],
     ':password' => $password,
     ':salt' => $salt,
@@ -112,7 +122,10 @@ email
 
 <div class="container hero-unit">
     <h1>Register</h1>
-    <form action="register.php" method="post" style="padding: 100px; padding-bottom: 0px;"> 
+    <form action="register.php" method="post" style="padding: 100px; padding-bottom: 0px;">    <label>First Name:</label>
+    <input type="text" name="firstname" value="" />
+    <label>Last Name:</label>
+    <input type="text" name="lastname" value="" /> 
     <label>Username:</label> 
     <input type="text" name="username" value="" /> 
     <label>Email:</label> 
