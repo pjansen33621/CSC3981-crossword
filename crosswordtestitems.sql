@@ -2,8 +2,8 @@
 itself only contains 10 words, which is less than what the final product will contain.  This file is so that the database
 can be created on either system (windows or linux) quickly. */
 
-CREATE DATABASE IF NOT EXISTS `crossword` /*!40100 DEFAULT CHARACTER SET utf8 */;
-use `crossword`;
+/* CREATE DATABASE IF NOT EXISTS `crossword` !40100 DEFAULT CHARACTER SET utf8
+ * ; */
 DROP TABLE IF EXISTS `wordsclues`;
 CREATE TABLE `wordsclues` (
   `id` MEDIUMINT NOT NULL AUTO_INCREMENT,
