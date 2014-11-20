@@ -1,12 +1,12 @@
 <?php
-  session_start();
-$row = $_SESSION['user'];
-$str = implode(" ", $row);
+session_start();
+$row=$_SESSION['user']
 ?>
 <!doctype html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <title>MTP Games - Crossword Construction Set</title>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
     <script src="assets/bootstrap.min.js"></script>
     <link href="assets/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -25,7 +25,7 @@ $str = implode(" ", $row);
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </a>
-      <a class="brand">PHP Signup + Bootstrap Example</a>
+      <a class="brand">MPT Games</a>
       <div class="nav-collapse collapse">
         <ul class="nav pull-right">
           <li class="dropdown">

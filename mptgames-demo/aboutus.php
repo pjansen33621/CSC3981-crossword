@@ -1,3 +1,5 @@
+<?php session_start() ?>
+
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -20,9 +22,20 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </a>
-      <a class="brand">MPT Games</a>
+      <a class="brand" href="index.php">MPT Games</a>
       <div class="nav-collapse collapse">
         <ul class="nav pull-right">
+        <?php if(isset($_SESSION['user'])) { ?>
+          <li><a href="aboutus.php">About Us</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" href="#" data-toggle="dropdown"><?php echo $_SESSION['user']['firstname'] . ' ' . $_SESSION['user']['lastname']; ?><strong class="caret"></strong></a>
+            <ul class="dropdown-menu" style="padding: 15px; padding-bottom: 0px;">
+              <li><a href="myaccount.php">My Account</a></li>
+              <li class=divider></li>
+              <li><a href="logout.php">Log Out</a></li>
+            </ul>
+          </li>
+        <?php } else { ?>
           <li><a href="register.php">Register</a></li>
           <li><a href="about.php">About Us</a></li>
           <li class="divider-vertical"></li>
@@ -39,7 +52,8 @@
                     <input type="submit" class="btn btn-info" value="Login" /> 
                 </form> 
             </div>
-          </li>
+            </li>
+        <?php } ?>
         </ul>
       </div>
     </div>

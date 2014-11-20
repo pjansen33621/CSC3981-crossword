@@ -36,8 +36,8 @@
             unset($row['password']); 
             session_start();
             $_SESSION['user'] = $row;  
-            header("Location: secret.php"); 
-            die("Redirecting to: secret.php"); 
+            header("Location: index.php"); 
+            die("Redirecting to: index.php"); 
         } 
         else{ 
             print("Login Failed."); 
@@ -45,7 +45,9 @@
         } 
     } 
 ?> 
+<?php session_start() ?>
 <!doctype html>
+
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -71,7 +73,19 @@
       <a class="brand">MPT Games</a>
       <div class="nav-collapse collapse">
         <ul class="nav pull-right">
+        <?php if (isset($_SESSION['user'])) { ?>
+          <li><a href="aboutus.php">About Us</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" href="#" data-toggle="dropdown"><?php echo $_SESSION['user']['firstname'] . ' ' . $_SESSION['user']['lastname']; ?><strong class="caret"></strong></a>
+            <ul class="dropdown-menu" style="padding: 15px; padding-bottom: 0px;">
+              <li><a href="myaccount.php">My Account</a></li>
+              <li class=divider></li>
+              <li><a href="logout.php">Log Out</a></li>
+            </ul>
+          </li>
+          <?php } else { ?>
           <li><a href="register.php">Register</a></li>
+          <li><a href="aboutus.php">About Us</a></li>
           <li class="divider-vertical"></li>
           <li class="dropdown">
             <a class="dropdown-toggle" href="#" data-toggle="dropdown">Log In <strong class="caret"></strong></a>
@@ -87,6 +101,7 @@
                 </form> 
             </div>
           </li>
+          <?php } ?>
         </ul>
       </div>
     </div>
@@ -94,15 +109,10 @@
 </div>
  
 <div class="container hero-unit">
-    <h1>There's secret content to be had within!</h1>
-    <p>But you can't access it just yet! You'll need to log in first. Use Bootstrap's nifty navbar dropdown to access the form.</p>
-    <h2>There are 2 ways you can log in:</h2>
-    <ul>
-        <li>Try out your own user + password with the <strong>Register</strong> button in the navbar.</li>
-        <li>Use the default credentials to save time:<br />
-            <strong>user:</strong> admin<br />
-            <strong>pass:</strong> password<br /></li>
-    </ul>
+    <img src="assets/mpttest.png" alt="mpt logo" height="360" width="640">
+    <h2>Welcome to MTP Games' Crossword Construction Set</h1>
+    <p>To get started, if you haven't already, register as a user, and sign in.</p>
+    <p>Random crossword craziness awaits those who desire to join in on the fun</p>
 </div>
 </body>
 </html>
