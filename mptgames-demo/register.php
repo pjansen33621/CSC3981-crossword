@@ -89,7 +89,7 @@ email = :email
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>MPT Games: Crossword Construction Set - Registration</title>
+    <title>MPT Games: Crossword Generator | Registration</title>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
     <script src="assets/bootstrap.min.js"></script>
     <link href="assets/bootstrap.min.css" rel="stylesheet" media="screen">

@@ -6,7 +6,7 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
     <script src="assets/bootstrap.min.js"></script>
     <link href="assets/bootstrap.min.css" rel="stylesheet" media="screen">
-    <title>MPT Games: Crossword Construction Set</title>
+    <title>MPT Games: Crossword Generator | About Us</title>
     <style type="text/css">
         body { background: url(assets/bglight.png); }
         .hero-unit { background-color: #fff; }
@@ -61,15 +61,9 @@
 </div>
  
 <div class="container hero-unit">
-    <h1>There's secret content to be had within!</h1>
-    <p>But you can't access it just yet! You'll need to log in first. Use Bootstrap's nifty navbar dropdown to access the form.</p>
-    <h2>There are 2 ways you can log in:</h2>
-    <ul>
-        <li>Try out your own user + password with the <strong>Register</strong> button in the navbar.</li>
-        <li>Use the default credentials to save time:<br />
-            <strong>user:</strong> admin<br />
-            <strong>pass:</strong> password<br /></li>
-    </ul>
+   <h2>About Us</h2>
+   <p>MPT games is a company that develops puzzle games for the internet.</p>
+   <p>IT consists of students Maria, Peter, and Tom.</p>
 </div>
 </body>
 </html>

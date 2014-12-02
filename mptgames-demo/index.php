@@ -54,7 +54,7 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
     <script src="assets/bootstrap.min.js"></script>
     <link href="assets/bootstrap.min.css" rel="stylesheet" media="screen">
-    <title>MPT Games: Crossword Construction Set</title>
+    <title>MPT Games: Crossword Generator</title>
     <style type="text/css">
         body { background: url(assets/bglight.png); }
         .hero-unit { background-color: #fff; }
@@ -110,9 +110,9 @@
  
 <div class="container hero-unit">
     <img src="assets/mpttest.png" alt="mpt logo" height="360" width="640">
-    <h2>Welcome to MTP Games' Crossword Construction Set</h1>
+    <h2>Welcome to MTP Games' Crossword Generator</h1>
     <p>To get started, if you haven't already, register as a user, and sign in.</p>
-    <p>Random crossword craziness awaits those who desire to join in on the fun</p>
+    <p>Random crossword craziness awaits those who desire to join in on the fun.</p>
 </div>
 </body>
 </html>
