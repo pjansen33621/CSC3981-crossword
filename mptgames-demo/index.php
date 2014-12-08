@@ -29,7 +29,7 @@
             $check_password = $_POST['password']; 
             if($check_password === $row['password']){
                 $login_ok = true;
-            } 
+            }
         } 
  
         if($login_ok){ 
@@ -37,15 +37,14 @@
             session_start();
             $_SESSION['user'] = $row;  
             header("Location: index.php"); 
-            die("Redirecting to: index.php"); 
+            die("Redirecting to: index.php");
         } 
         else{ 
             print("Login Failed."); 
             $submitted_username = htmlentities($_POST['username'], ENT_QUOTES, 'UTF-8'); 
         } 
     } 
-?> 
-<?php session_start() ?>
+?>
 <!doctype html>
 
 <html lang="en">
@@ -79,6 +78,7 @@
             <a class="dropdown-toggle" href="#" data-toggle="dropdown"><?php echo $_SESSION['user']['firstname'] . ' ' . $_SESSION['user']['lastname']; ?><strong class="caret"></strong></a>
             <ul class="dropdown-menu" style="padding: 15px; padding-bottom: 0px;">
               <li><a href="myaccount.php">My Account</a></li>
+                <li><a href="sendmessage.php">Send Message</a></li>
               <li class=divider></li>
               <li><a href="logout.php">Log Out</a></li>
             </ul>
@@ -97,8 +97,8 @@
                     Password:<br /> 
                     <input type="password" name="password" value="" /> 
                     <br /><br /> 
-                    <input type="submit" class="btn btn-info" value="Login" /> 
-                </form> 
+                    <input type="submit" class="btn btn-info" value="Login" />
+                </form>
             </div>
           </li>
           <?php } ?>
@@ -107,10 +107,10 @@
     </div>
   </div>
 </div>
- 
+
 <div class="container hero-unit">
     <img src="assets/mpttest.png" alt="mpt logo" height="360" width="640">
-    <h2>Welcome to MTP Games' Crossword Generator</h1>
+    <h1>Welcome to MTP Games' Crossword Generator</h1>
     <p>To get started, if you haven't already, register as a user, and sign in.</p>
     <p>Random crossword craziness awaits those who desire to join in on the fun.</p>
 </div>
