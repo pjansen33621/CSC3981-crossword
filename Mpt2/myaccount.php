@@ -6,52 +6,7 @@
  * Time: 1:06 PM
  */
 require("config.php");
-$submitted_username = '';
-if(!empty($_POST)){
-    $query = "
-            SELECT
-                id,
-                firstname,
-                lastname,
-                username,
-                password,
-                email
-            FROM users
-            WHERE
-                username = :username
-        ";
-    $query_params = array(
-        ':username' => $_POST['username']
-    );
-
-    try{
-        $stmt = $db->prepare($query);
-        $result = $stmt->execute($query_params);
-    }
-    catch(PDOException $ex){ die("Failed to run query: " . $ex->getMessage()); }
-    $login_ok = false;
-    $row = $stmt->fetch();
-    if($row){
-        $check_password = $_POST['password'];
-        if($check_password === $row['password']){
-            $login_ok = true;
-        }
-    }
-
-    if($login_ok){
-        unset($row['password']);
-        session_start();
-        $_SESSION['user'] = $row;
-        header("Location: index.php");
-        die("Redirecting to: index.php");
-    }
-    else{
-        print("Login Failed.");
-        $submitted_username = htmlentities($_POST['username'], ENT_QUOTES, 'UTF-8');
-    }
-}
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
