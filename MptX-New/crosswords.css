@@ -1,0 +1,52 @@
+body {
+    background: #333 ;
+    width: 1000px ;
+    margin: auto ;
+    }
+
+table.crosswords {
+    margin: 0px ;
+    padding: 0px ;
+    }
+    table.crosswords tr {
+        margin: 0px ;
+        padding: 0px ;
+        }
+    table.crosswords td {
+        margin: 0px ;
+        padding: 0px ;
+        color: #F70 ;
+        text-align: center ;
+        }
+    table.crosswords input {
+        padding: 2px ;
+        margin: 1px 0px 0px 0px ;
+
+        text-align: center ;
+        font-size: 1.2em ;
+        width: 26px ;
+
+        background: #222 ;
+        color: #FFF ;
+        border: 0px ;
+        }
+
+input[type=submit] {
+    border: 0px ;
+    background: #222 ;
+    color: #EEE ;
+    font-size: 1.2em ;
+    padding: 10px ;
+    border-radius: 10px ;
+    cursor: pointer ;
+    }
+    input[type=submit]:hover {
+        background: #444 ;
+        }
+
+#crossword-vertical-defs,
+#crossword-horizontal-defs {
+    float: right ;
+    background: #333 ;
+    color: #EEE ;
+    }
