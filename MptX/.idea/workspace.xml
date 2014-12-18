@@ -28,20 +28,20 @@
       <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="374">
+            <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="330">
               <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1360" max-vertical-offset="4454">
-              <caret line="80" column="2" selection-start-line="80" selection-start-column="2" selection-end-line="80" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.4642857" vertical-offset="0" max-vertical-offset="3930">
+              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="27" selection-end-column="9" />
               <folding>
-                <marker date="1418576628335" expanded="true" signature="118:349" placeholder="SELECT id, f..users..." />
+                <marker date="1418697232952" expanded="true" signature="118:349" placeholder="SELECT id, f..users..." />
               </folding>
             </state>
           </provider>
@@ -50,38 +50,36 @@
       <file leaf-file-name="myaccount.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myaccount.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2958" max-vertical-offset="5797">
-              <caret line="164" column="24" selection-start-line="164" selection-start-column="24" selection-end-line="164" selection-end-column="24" />
+            <state vertical-scroll-proportion="-34.291668" vertical-offset="3032" max-vertical-offset="5370">
+              <caret line="257" column="0" selection-start-line="257" selection-start-column="0" selection-end-line="257" selection-end-column="0" />
               <folding>
                 <element signature="e#6#88#0#PHP" expanded="true" />
-                <element signature="e#8443#9630#0#PHP" expanded="false" />
-                <marker date="1418575807001" expanded="true" signature="174:245" placeholder="SELECT * FRO..messages..." />
-                <marker date="1418575807001" expanded="true" signature="343:401" placeholder="SELECT * FRO..messages..." />
-                <marker date="1418575807001" expanded="true" signature="515:559" placeholder="DELETE FROM ..." />
-                <marker date="1418575807001" expanded="true" signature="8778:9005" placeholder="INSERT INTO ..." />
+                <element signature="n#style#0;n#span#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1418801658640" expanded="true" signature="174:245" placeholder="SELECT * FRO..messages..." />
+                <marker date="1418801658640" expanded="true" signature="343:401" placeholder="SELECT * FRO..messages..." />
+                <marker date="1418801658640" expanded="true" signature="515:559" placeholder="DELETE FROM ..." />
+                <marker date="1418801658640" expanded="true" signature="8778:9005" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="games.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="games.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/games.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.807391" vertical-offset="0" max-vertical-offset="3706">
+            <state vertical-scroll-proportion="-97.5" vertical-offset="1395" max-vertical-offset="4005">
               <caret line="258" column="0" selection-start-line="258" selection-start-column="0" selection-end-line="258" selection-end-column="0" />
               <folding>
                 <element signature="e#6#88#0#PHP" expanded="true" />
-                <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="e#3889#5696#0#PHP" expanded="false" />
-                <element signature="n#style#0;n#select#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#select#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="tag#section#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-                <marker date="1418594936725" expanded="true" signature="176:245" placeholder="SELECT * FRO..wordsclues..." />
-                <marker date="1418594936725" expanded="true" signature="176:248" placeholder="SELECT * FRO..wordsclues..." />
-                <marker date="1418594936725" expanded="true" signature="176:276" placeholder="SELECT * FRO..wordsclues..." />
-                <marker date="1418594936725" expanded="true" signature="322:341" placeholder="..." />
+                <marker date="1418697232946" expanded="true" signature="176:245" placeholder="SELECT * FRO..wordsclues..." />
               </folding>
             </state>
           </provider>
@@ -90,9 +88,11 @@
       <file leaf-file-name="message_delete.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/message_delete.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-              <folding />
+            <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="225">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding>
+                <marker date="1418697232952" expanded="true" signature="45:89" placeholder="DELETE FROM ..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,7 +100,7 @@
       <file leaf-file-name="register.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2805" max-vertical-offset="3740">
+            <state vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="3300">
               <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
               <folding />
             </state>
@@ -110,7 +110,7 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="6375" max-vertical-offset="10931">
+            <state vertical-scroll-proportion="0.0" vertical-offset="6300" max-vertical-offset="9645">
               <caret line="420" column="0" selection-start-line="420" selection-start-column="0" selection-end-line="420" selection-end-column="0" />
               <folding />
             </state>
@@ -133,18 +133,17 @@
         <option value="$PROJECT_DIR$/register.php" />
         <option value="$PROJECT_DIR$/send-messages.php" />
         <option value="$PROJECT_DIR$/message_delete.php" />
-        <option value="$PROJECT_DIR$/myaccount.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/games.php" />
+        <option value="$PROJECT_DIR$/myaccount.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="wamp2" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-1" />
+    <option name="width" value="1914" />
+    <option name="height" value="1001" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -172,7 +171,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -187,31 +185,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Mpt2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mpt2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mpt2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="MptX" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../School/Spring 2014/CSC 3084 - Web Development/Project 5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
@@ -256,8 +241,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1" y="0" width="1914" height="1001" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -265,7 +250,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.116145834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11610879" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -310,11 +295,18 @@
           <caret line="164" column="24" selection-start-line="164" selection-start-column="24" selection-end-line="164" selection-end-column="24" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
-            <element signature="e#8443#9630#0#PHP" expanded="false" />
-            <marker date="1418575807001" expanded="true" signature="174:245" placeholder="SELECT * FRO..messages..." />
-            <marker date="1418575807001" expanded="true" signature="343:401" placeholder="SELECT * FRO..messages..." />
-            <marker date="1418575807001" expanded="true" signature="515:559" placeholder="DELETE FROM ..." />
-            <marker date="1418575807001" expanded="true" signature="8778:9005" placeholder="INSERT INTO ..." />
+            <element signature="n#style#0;n#span#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1418801658640" expanded="true" signature="174:245" placeholder="SELECT * FRO..messages..." />
+            <marker date="1418801658640" expanded="true" signature="343:401" placeholder="SELECT * FRO..messages..." />
+            <marker date="1418801658640" expanded="true" signature="515:559" placeholder="DELETE FROM ..." />
+            <marker date="1418801658640" expanded="true" signature="8778:9005" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -325,17 +317,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
-            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="e#3889#5696#0#PHP" expanded="false" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="tag#section#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-            <marker date="1418594936725" expanded="true" signature="176:245" placeholder="SELECT * FRO..wordsclues..." />
-            <marker date="1418594936725" expanded="true" signature="176:248" placeholder="SELECT * FRO..wordsclues..." />
-            <marker date="1418594936725" expanded="true" signature="176:276" placeholder="SELECT * FRO..wordsclues..." />
-            <marker date="1418594936725" expanded="true" signature="322:341" placeholder="..." />
+            <marker date="1418697232946" expanded="true" signature="176:245" placeholder="SELECT * FRO..wordsclues..." />
           </folding>
         </state>
       </provider>
@@ -344,7 +327,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
           <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding />
+          <folding>
+            <marker date="1418697232952" expanded="true" signature="45:89" placeholder="DELETE FROM ..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -377,7 +362,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="4454">
           <caret line="205" column="61" selection-start-line="205" selection-start-column="61" selection-end-line="205" selection-end-column="61" />
           <folding>
-            <marker date="1418576628335" expanded="true" signature="118:349" placeholder="SELECT id, f..users..." />
+            <marker date="1418697232952" expanded="true" signature="118:349" placeholder="SELECT id, f..users..." />
           </folding>
         </state>
       </provider>
@@ -388,11 +373,18 @@
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
-            <element signature="e#8443#9630#0#PHP" expanded="false" />
-            <marker date="1418575807001" expanded="true" signature="174:245" placeholder="SELECT * FRO..messages..." />
-            <marker date="1418575807001" expanded="true" signature="343:401" placeholder="SELECT * FRO..messages..." />
-            <marker date="1418575807001" expanded="true" signature="515:559" placeholder="DELETE FROM ..." />
-            <marker date="1418575807001" expanded="true" signature="8778:9005" placeholder="INSERT INTO ..." />
+            <element signature="n#style#0;n#span#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1418801658640" expanded="true" signature="174:245" placeholder="SELECT * FRO..messages..." />
+            <marker date="1418801658640" expanded="true" signature="343:401" placeholder="SELECT * FRO..messages..." />
+            <marker date="1418801658640" expanded="true" signature="515:559" placeholder="DELETE FROM ..." />
+            <marker date="1418801658640" expanded="true" signature="8778:9005" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -401,7 +393,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
           <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding />
+          <folding>
+            <marker date="1418697232952" expanded="true" signature="45:89" placeholder="DELETE FROM ..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -434,7 +428,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="4454">
           <caret line="205" column="61" selection-start-line="205" selection-start-column="61" selection-end-line="205" selection-end-column="61" />
           <folding>
-            <marker date="1418576628335" expanded="true" signature="118:349" placeholder="SELECT id, f..users..." />
+            <marker date="1418697232952" expanded="true" signature="118:349" placeholder="SELECT id, f..users..." />
           </folding>
         </state>
       </provider>
@@ -445,11 +439,18 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
-            <element signature="e#8443#9630#0#PHP" expanded="false" />
-            <marker date="1418575807001" expanded="true" signature="174:245" placeholder="SELECT * FRO..messages..." />
-            <marker date="1418575807001" expanded="true" signature="343:401" placeholder="SELECT * FRO..messages..." />
-            <marker date="1418575807001" expanded="true" signature="515:559" placeholder="DELETE FROM ..." />
-            <marker date="1418575807001" expanded="true" signature="8778:9005" placeholder="INSERT INTO ..." />
+            <element signature="n#style#0;n#span#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1418801658640" expanded="true" signature="174:245" placeholder="SELECT * FRO..messages..." />
+            <marker date="1418801658640" expanded="true" signature="343:401" placeholder="SELECT * FRO..messages..." />
+            <marker date="1418801658640" expanded="true" signature="515:559" placeholder="DELETE FROM ..." />
+            <marker date="1418801658640" expanded="true" signature="8778:9005" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -458,7 +459,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="255">
           <caret line="3" column="1" selection-start-line="3" selection-start-column="0" selection-end-line="7" selection-end-column="18" />
-          <folding />
+          <folding>
+            <marker date="1418697232952" expanded="true" signature="45:89" placeholder="DELETE FROM ..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -498,7 +501,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="1668" max-vertical-offset="4454">
           <caret line="107" column="25" selection-start-line="107" selection-start-column="25" selection-end-line="107" selection-end-column="25" />
           <folding>
-            <marker date="1418576628335" expanded="true" signature="118:349" placeholder="SELECT id, f..users..." />
+            <marker date="1418697232952" expanded="true" signature="118:349" placeholder="SELECT id, f..users..." />
           </folding>
         </state>
       </provider>
@@ -509,11 +512,18 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
-            <element signature="e#8443#9630#0#PHP" expanded="false" />
-            <marker date="1418575807001" expanded="true" signature="174:245" placeholder="SELECT * FRO..messages..." />
-            <marker date="1418575807001" expanded="true" signature="343:401" placeholder="SELECT * FRO..messages..." />
-            <marker date="1418575807001" expanded="true" signature="515:559" placeholder="DELETE FROM ..." />
-            <marker date="1418575807001" expanded="true" signature="8778:9005" placeholder="INSERT INTO ..." />
+            <element signature="n#style#0;n#span#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1418801658640" expanded="true" signature="174:245" placeholder="SELECT * FRO..messages..." />
+            <marker date="1418801658640" expanded="true" signature="343:401" placeholder="SELECT * FRO..messages..." />
+            <marker date="1418801658640" expanded="true" signature="515:559" placeholder="DELETE FROM ..." />
+            <marker date="1418801658640" expanded="true" signature="8778:9005" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -554,7 +564,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4454">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1418576628335" expanded="true" signature="118:349" placeholder="SELECT id, f..users..." />
+            <marker date="1418697232952" expanded="true" signature="118:349" placeholder="SELECT id, f..users..." />
           </folding>
         </state>
       </provider>
@@ -565,11 +575,18 @@
           <caret line="190" column="54" selection-start-line="190" selection-start-column="54" selection-end-line="190" selection-end-column="54" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
-            <element signature="e#8443#9630#0#PHP" expanded="false" />
-            <marker date="1418575807001" expanded="true" signature="174:245" placeholder="SELECT * FRO..messages..." />
-            <marker date="1418575807001" expanded="true" signature="343:401" placeholder="SELECT * FRO..messages..." />
-            <marker date="1418575807001" expanded="true" signature="515:559" placeholder="DELETE FROM ..." />
-            <marker date="1418575807001" expanded="true" signature="8778:9005" placeholder="INSERT INTO ..." />
+            <element signature="n#style#0;n#span#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1418801658640" expanded="true" signature="174:245" placeholder="SELECT * FRO..messages..." />
+            <marker date="1418801658640" expanded="true" signature="343:401" placeholder="SELECT * FRO..messages..." />
+            <marker date="1418801658640" expanded="true" signature="515:559" placeholder="DELETE FROM ..." />
+            <marker date="1418801658640" expanded="true" signature="8778:9005" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -603,7 +620,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4454">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1418576628335" expanded="true" signature="118:349" placeholder="SELECT id, f..users..." />
+            <marker date="1418697232952" expanded="true" signature="118:349" placeholder="SELECT id, f..users..." />
           </folding>
         </state>
       </provider>
@@ -614,11 +631,18 @@
           <caret line="190" column="54" selection-start-line="190" selection-start-column="54" selection-end-line="190" selection-end-column="54" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
-            <element signature="e#8443#9630#0#PHP" expanded="false" />
-            <marker date="1418575807001" expanded="true" signature="174:245" placeholder="SELECT * FRO..messages..." />
-            <marker date="1418575807001" expanded="true" signature="343:401" placeholder="SELECT * FRO..messages..." />
-            <marker date="1418575807001" expanded="true" signature="515:559" placeholder="DELETE FROM ..." />
-            <marker date="1418575807001" expanded="true" signature="8778:9005" placeholder="INSERT INTO ..." />
+            <element signature="n#style#0;n#span#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1418801658640" expanded="true" signature="174:245" placeholder="SELECT * FRO..messages..." />
+            <marker date="1418801658640" expanded="true" signature="343:401" placeholder="SELECT * FRO..messages..." />
+            <marker date="1418801658640" expanded="true" signature="515:559" placeholder="DELETE FROM ..." />
+            <marker date="1418801658640" expanded="true" signature="8778:9005" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -652,7 +676,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="2652" max-vertical-offset="4454">
           <caret line="156" column="35" selection-start-line="152" selection-start-column="8" selection-end-line="167" selection-end-column="32" />
           <folding>
-            <marker date="1418576628335" expanded="true" signature="118:349" placeholder="SELECT id, f..users..." />
+            <marker date="1418697232952" expanded="true" signature="118:349" placeholder="SELECT id, f..users..." />
           </folding>
         </state>
       </provider>
@@ -663,11 +687,18 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
-            <element signature="e#8443#9630#0#PHP" expanded="false" />
-            <marker date="1418575807001" expanded="true" signature="174:245" placeholder="SELECT * FRO..messages..." />
-            <marker date="1418575807001" expanded="true" signature="343:401" placeholder="SELECT * FRO..messages..." />
-            <marker date="1418575807001" expanded="true" signature="515:559" placeholder="DELETE FROM ..." />
-            <marker date="1418575807001" expanded="true" signature="8778:9005" placeholder="INSERT INTO ..." />
+            <element signature="n#style#0;n#span#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1418801658640" expanded="true" signature="174:245" placeholder="SELECT * FRO..messages..." />
+            <marker date="1418801658640" expanded="true" signature="343:401" placeholder="SELECT * FRO..messages..." />
+            <marker date="1418801658640" expanded="true" signature="515:559" placeholder="DELETE FROM ..." />
+            <marker date="1418801658640" expanded="true" signature="8778:9005" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -701,7 +732,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4454">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1418576628335" expanded="true" signature="118:349" placeholder="SELECT id, f..users..." />
+            <marker date="1418697232952" expanded="true" signature="118:349" placeholder="SELECT id, f..users..." />
           </folding>
         </state>
       </provider>
@@ -745,14 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/message_delete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="374">
@@ -761,48 +784,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myaccount.php">
+    <entry file="file://$PROJECT_DIR$/message_delete.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2958" max-vertical-offset="5797">
-          <caret line="164" column="24" selection-start-line="164" selection-start-column="24" selection-end-line="164" selection-end-column="24" />
+        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="225">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
-            <element signature="e#8443#9630#0#PHP" expanded="false" />
-            <marker date="1418575807001" expanded="true" signature="174:245" placeholder="SELECT * FRO..messages..." />
-            <marker date="1418575807001" expanded="true" signature="343:401" placeholder="SELECT * FRO..messages..." />
-            <marker date="1418575807001" expanded="true" signature="515:559" placeholder="DELETE FROM ..." />
-            <marker date="1418575807001" expanded="true" signature="8778:9005" placeholder="INSERT INTO ..." />
+            <marker date="1418697232952" expanded="true" signature="45:89" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/myaccount.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1360" max-vertical-offset="4454">
-          <caret line="80" column="2" selection-start-line="80" selection-start-column="2" selection-end-line="80" selection-end-column="2" />
+        <state vertical-scroll-proportion="-34.291668" vertical-offset="3032" max-vertical-offset="5370">
+          <caret line="257" column="0" selection-start-line="257" selection-start-column="0" selection-end-line="257" selection-end-column="0" />
           <folding>
-            <marker date="1418576628335" expanded="true" signature="118:349" placeholder="SELECT id, f..users..." />
+            <element signature="e#6#88#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1418801658640" expanded="true" signature="174:245" placeholder="SELECT * FRO..messages..." />
+            <marker date="1418801658640" expanded="true" signature="343:401" placeholder="SELECT * FRO..messages..." />
+            <marker date="1418801658640" expanded="true" signature="515:559" placeholder="DELETE FROM ..." />
+            <marker date="1418801658640" expanded="true" signature="8778:9005" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/games.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.807391" vertical-offset="0" max-vertical-offset="3706">
+        <state vertical-scroll-proportion="-97.5" vertical-offset="1395" max-vertical-offset="4005">
           <caret line="258" column="0" selection-start-line="258" selection-start-column="0" selection-end-line="258" selection-end-column="0" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
-            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="e#3889#5696#0#PHP" expanded="false" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="tag#section#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-            <marker date="1418594936725" expanded="true" signature="176:245" placeholder="SELECT * FRO..wordsclues..." />
-            <marker date="1418594936725" expanded="true" signature="176:248" placeholder="SELECT * FRO..wordsclues..." />
-            <marker date="1418594936725" expanded="true" signature="176:276" placeholder="SELECT * FRO..wordsclues..." />
-            <marker date="1418594936725" expanded="true" signature="322:341" placeholder="..." />
+            <marker date="1418697232946" expanded="true" signature="176:245" placeholder="SELECT * FRO..wordsclues..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4642857" vertical-offset="0" max-vertical-offset="3930">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <marker date="1418697232952" expanded="true" signature="118:349" placeholder="SELECT id, f..users..." />
           </folding>
         </state>
       </provider>
